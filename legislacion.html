@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body class="index-page">
+<body class="about-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -49,8 +49,8 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Inicio<br></a></li>
-          <li><a href="legislacion.html">Legislación</a></li>
+          <li><a href="index.html">Inicio<br></a></li>
+          <li><a href="legislacion.html" class="active">Legislación</a></li>
           <li><a href="leyes.html">Leyes</a></li>
           <li><a href="tramite.html">Trámite</a></li>
           <li><a href="etica.html">Ética</a></li>
@@ -65,30 +65,50 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/about-page-title-bg.jpg);">
       <div class="container">
-        <div class="row">
-          <div class="col-xl-4">
-            <h1 data-aos="fade-up">Introducción</h1>
-            <blockquote data-aos="fade-up" data-aos-delay="100">
-              <p>En la era digital, la legislación y ética informática son esenciales para proteger datos, privacidad y derechos de autor, así como para combatir delitos informáticos. Este documento explora las leyes y conceptos clave de la legislación informática, así como los principios éticos y características de los delitos informáticos, con un enfoque especial en México. Estas áreas son vitales para un uso responsable y seguro de la tecnología.</p>
-            </blockquote>
-            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-              <a href="#about" class="btn-get-started">Comenzar</a>
-              <a href="https://www.youtube.com/watch?v=AWMcKynZdY8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Ver Video</span></a>
-            </div>
-          </div>
+        <h1>Legislación Informática</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="current">Legislación Informática</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+<!-- About Section -->
+<section id="about" class="about section">
+
+  <div class="container">
+
+    <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-5">
+        <img src="assets/img/about.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+        <div class="content">
+          <h3>Legislación Informática</h3>
+          <p>
+            La legislación informática es crucial para proteger los derechos de autor, garantizar la privacidad y salvaguardar los datos en el entorno digital. Comprender estos conceptos es esencial para una gestión adecuada de la información.
+          </p>
+          <ul>
+            <li><i class="bi bi-check-circle-fill"></i> <span>Derechos de Autor: Protegen las creaciones originales y garantizan el control sobre su uso y distribución.</span></li>
+            <li><i class="bi bi-check-circle-fill"></i> <span>Privacidad: Derecho de los individuos a controlar su información personal y cómo se utiliza.</span></li>
+            <li><i class="bi bi-check-circle-fill"></i> <span>Protección de Datos: Medidas para salvaguardar la información personal contra el acceso no autorizado y el uso indebido.</span></li>
+          </ul>
         </div>
       </div>
+    </div>
 
-    </section><!-- /Hero Section -->
+  </div>
 
-    <!-- Why Us Section -->
-    <section id="why-us" class="why-us section">
+</section><!-- /About Section -->
+
+
+     <!-- Why Us Section -->
+     <section id="why-us" class="why-us section">
 
       <div class="container">
 
@@ -169,98 +189,24 @@
 
     </section><!-- /Why Us Section -->
 
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Our Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813;"></i></div>
-            <div>
-              <h4 class="title">Conceptos de Derechos de Autor</h4>
-              <p class="description">Los derechos de autor protegen las creaciones originales.</p>
-              
-            </div>
-          </div>
-          <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist" style="color: #15a04a;"></i></div>
-            <div>
-              <h4 class="title">Privacidad y Protección de Datos</h4>
-              <p class="description">La privacidad permite controlar la información personal.</p>
-              
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #d90769;"></i></div>
-            <div>
-              <h4 class="title">Leyes Aplicables</h4>
-              <p class="description">Existen leyes nacionales e internacionales para proteger los derechos de autor y la privacidad.</p>
-              
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-binoculars" style="color: #15bfbc;"></i></div>
-            <div>
-              <h4 class="title">Registro de Obras</h4>
-              <p class="description">El registro de obras garantiza la protección legal de los derechos de autor.</p>
-              
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high" style="color: #f5cf13;"></i></div>
-            <div>
-              <h4 class="title">Ética Informática</h4>
-              <p class="description">La ética informática guía el uso responsable de la tecnología.</p>
-              
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week" style="color: #1335f5;"></i></div>
-            <div>
-              <h4 class="title">Delitos Informáticos</h4>
-              <p class="description">Los delitos informáticos son actividades ilegales en el entorno digital.</p>
-              
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section dark-background">
+<!-- Call To Action Section -->
+<section id="call-to-action" class="call-to-action section dark-background">
     
-      <img src="assets/img/cta-bg.jpg" alt="">
-    
-      <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>Seguridad de la Información</h3>
-              <p>La seguridad de la información es fundamental en la era digital. Proteger los datos sensibles y garantizar la privacidad es una responsabilidad crucial para todas las organizaciones. Aprende cómo implementar medidas efectivas para salvaguardar la integridad y confidencialidad de la información.</p>
-              <a class="cta-btn" href="#">Descubre Más</a>
-            </div>
-          </div>
+  <img src="assets/img/cta-bg.jpg" alt="">
+
+  <div class="container">
+    <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+      <div class="col-xl-10">
+        <div class="text-center">
+          <h3>Seguridad de la Información</h3>
+          <p>La seguridad de la información es fundamental en la era digital. Proteger los datos sensibles y garantizar la privacidad es una responsabilidad crucial para todas las organizaciones. Aprende cómo implementar medidas efectivas para salvaguardar la integridad y confidencialidad de la información.</p>
+          <a class="cta-btn" href="#">Descubre Más</a>
         </div>
       </div>
-    
-    </section><!-- /Call To Action Section -->
+    </div>
+  </div>
+
+</section><!-- /Call To Action Section -->
 
   </main>
 
@@ -328,7 +274,6 @@
     </div>
 
   </footer>
-
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
